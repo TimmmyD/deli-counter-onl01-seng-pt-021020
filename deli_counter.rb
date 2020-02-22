@@ -5,7 +5,7 @@ def line(array)
     puts "The line is currently empty."
   else 
     array.each_with_index do |element, index|
-      result << index + 1 << ". " << element
+      result << (index + 1).to_s << ". " << element
     end
     puts result 
   end 
