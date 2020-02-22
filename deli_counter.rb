@@ -1,4 +1,4 @@
-require 'pry'
+require_relative
 katz_deli[] 
 def line(array)
   result = "The line is currently: "
@@ -7,6 +7,7 @@ def line(array)
   else 
     array.each_with_index do |element, index|
       result << index + 1 << ". " << element
+    end
   end 
 end 
       
