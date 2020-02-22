@@ -7,7 +7,7 @@ def line(array)
     array.each_with_index do |element, index|
       result << (index + 1).to_s << ". " << element << " " 
     end
-    result.delete_suffix(" ")
+    result.delete_suffix(' ')
     puts result 
   end 
 end 
