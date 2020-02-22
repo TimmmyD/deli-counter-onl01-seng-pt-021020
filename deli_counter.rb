@@ -7,7 +7,13 @@ def line(array)
     array.each_with_index do |element, index|
       result << index + 1 << ". " << element
     end
+    puts result 
   end 
+end 
+
+def take_a_number(array, name)
+  array
+  
 end 
       
     
