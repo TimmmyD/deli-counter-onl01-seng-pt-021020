@@ -1,2 +1,2 @@
 def local_deli()
-  katz_deli[
+  katz_deli[] 
