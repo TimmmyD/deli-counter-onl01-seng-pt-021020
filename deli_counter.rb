@@ -1,1 +1,2 @@
-# Write your code here.
+def local_deli()
+  katz_deli[
