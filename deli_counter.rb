@@ -13,8 +13,12 @@ end
 
 def take_a_number(array, name)
   array.push(name)
-  puts "Welcome, #{name}. You are number "
-  
+  puts "Welcome, #{name}. You are number #{array.length} in line."
 end 
-      
+
+def now_serving(array)
+  if array.empty?
+    puts "There is nobody waiting to be served!"
+  else 
+    puts "Currently serving #{array[0]}."
     
