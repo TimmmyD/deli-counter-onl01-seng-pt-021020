@@ -1,4 +1,4 @@
-require_relative
+
 katz_deli[] 
 def line(array)
   result = "The line is currently: "
