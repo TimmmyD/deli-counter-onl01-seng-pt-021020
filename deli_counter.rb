@@ -4,8 +4,8 @@ def line(array)
   if array.empty? 
     puts "The line is currently empty."
   else 
-    array.each_with_index do |element , index|
-      result << (index + 1).to_s << ". " << element 
+    array.each_with_index do |element, index|
+      result << (index + 1).to_s << ". " << element << " " 
     end
     puts result 
   end 
