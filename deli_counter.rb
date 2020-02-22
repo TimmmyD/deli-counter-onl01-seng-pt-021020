@@ -23,4 +23,5 @@ def now_serving(array)
     puts "Currently serving #{array[0]}."
     array.delete(array[0])
   end 
+end 
     
