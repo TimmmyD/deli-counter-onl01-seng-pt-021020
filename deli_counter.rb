@@ -7,5 +7,8 @@ def line(array)
   else 
     array.each_with_index do |element, index|
       result << index + 1 << ". " << element
-      binding.pry 
+    end 
+  end 
+end 
+      
     
