@@ -1,5 +1,4 @@
 
-katz_deli[] 
 def line(array)
   result = "The line is currently: "
   if array.empty? 
