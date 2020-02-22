@@ -7,6 +7,7 @@ def line(array)
     array.each_with_index do |element, index|
       result << (index + 1).to_s << ". " << element << " " 
     end
+    
     puts result 
   end 
 end 
